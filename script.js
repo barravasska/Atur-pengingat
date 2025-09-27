@@ -6,12 +6,14 @@ document.addEventListener('DOMContentLoaded', () => {
     // GANTI DENGAN KONFIGURASI FIREBASE ANDA
     // ATAU GUNAKAN ENVIRONMENT VARIABLES JIKA DI-DEPLOY
     const firebaseConfig = {
-        apiKey: import.meta.env.VITE_API_KEY,
-        authDomain: import.meta.env.VITE_AUTH_DOMAIN,
-        projectId: import.meta.env.VITE_PROJECT_ID,
-        storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
-        messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
-        appId: import.meta.env.VITE_APP_ID
+        apiKey: "AIzaSyDx2rPVw4zTS_RsaepdNlDQnL-iJblEg2M",
+        authDomain: "pengingat-125d2.firebaseapp.com",
+        databaseURL: "https://pengingat-125d2-default-rtdb.firebaseio.com",
+        projectId: "pengingat-125d2",
+        storageBucket: "pengingat-125d2.firebasestorage.app",
+        messagingSenderId: "193072002537",
+        appId: "1:193072002537:web:1233e9309ff778b5f84778",
+        measurementId: "G-8NBMN0K3D6"
     };
 
     // Inisialisasi Firebase
@@ -259,4 +261,5 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
 
