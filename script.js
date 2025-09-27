@@ -3,15 +3,15 @@ document.addEventListener('DOMContentLoaded', () => {
     // =================================================================
     // 1. KONFIGURASI FIREBASE
     // =================================================================
+    // GANTI DENGAN KONFIGURASI FIREBASE ANDA
+    // ATAU GUNAKAN ENVIRONMENT VARIABLES JIKA DI-DEPLOY
     const firebaseConfig = {
-        apiKey: "AIzaSyDx2rPVw4zTS_RsaepdNlDQnL-iJblEg2M",
-        authDomain: "pengingat-125d2.firebaseapp.com",
-        databaseURL: "https://pengingat-125d2-default-rtdb.firebaseio.com",
-        projectId: "pengingat-125d2",
-        storageBucket: "pengingat-125d2.firebasestorage.app",
-        messagingSenderId: "193072002537",
-        appId: "1:193072002537:web:1233e9309ff778b5f84778",
-        measurementId: "G-8NBMN0K3D6"
+        apiKey: "YOUR_API_KEY", // GANTI INI
+        authDomain: "YOUR_AUTH_DOMAIN", // GANTI INI
+        projectId: "YOUR_PROJECT_ID", // GANTI INI
+        storageBucket: "YOUR_STORAGE_BUCKET", // GANTI INI
+        messagingSenderId: "YOUR_MESSAGING_SENDER_ID", // GANTI INI
+        appId: "YOUR_APP_ID" // GANTI INI
     };
 
     // Inisialisasi Firebase
