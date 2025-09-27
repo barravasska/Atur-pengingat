@@ -245,3 +245,80 @@ h2 {
     color: #4caf50; /* Warna hijau tua untuk ikon 'sudah selesai' */
     content: '✔'; /* Ganti ikon jika diperlukan (opsional) */
 }
+
+.auth-container {
+    background-color: #ffffff;
+    padding: 35px 45px;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+.auth-container h2 {
+    font-family: 'Pacifico', cursive;
+    color: #f06292;
+    margin-bottom: 25px;
+}
+
+.auth-container input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #ffccbc;
+    border-radius: 10px;
+    font-size: 1em;
+}
+
+.auth-container button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(45deg, #f06292, #ffb6c1);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.auth-container p {
+    font-size: 0.9em;
+}
+
+.auth-container a {
+    color: #f06292;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* --- Gaya untuk Header di Aplikasi Utama --- */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.header h1 {
+    margin-bottom: 0;
+    font-size: 2.5em;
+}
+
+.user-info {
+    font-size: 0.9em;
+    text-align: right;
+}
+
+#logout-button {
+    background: #ffcdd2;
+    color: #c62828;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 0.8em;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    margin-top: 5px;
+}
