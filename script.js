@@ -6,12 +6,12 @@ document.addEventListener('DOMContentLoaded', () => {
     // GANTI DENGAN KONFIGURASI FIREBASE ANDA
     // ATAU GUNAKAN ENVIRONMENT VARIABLES JIKA DI-DEPLOY
     const firebaseConfig = {
-        apiKey: "YOUR_API_KEY", // GANTI INI
-        authDomain: "YOUR_AUTH_DOMAIN", // GANTI INI
-        projectId: "YOUR_PROJECT_ID", // GANTI INI
-        storageBucket: "YOUR_STORAGE_BUCKET", // GANTI INI
-        messagingSenderId: "YOUR_MESSAGING_SENDER_ID", // GANTI INI
-        appId: "YOUR_APP_ID" // GANTI INI
+        apiKey: import.meta.env.VITE_API_KEY,
+        authDomain: import.meta.env.VITE_AUTH_DOMAIN,
+        projectId: import.meta.env.VITE_PROJECT_ID,
+        storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
+        messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
+        appId: import.meta.env.VITE_APP_ID
     };
 
     // Inisialisasi Firebase
@@ -259,3 +259,4 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
