@@ -18,28 +18,6 @@ body {
     padding: 20px;
     position: relative;
 }
-
-/* --- Karakter Animasi --- */
-.character-lotso {
-    position: absolute;
-    bottom: -50px;
-    left: 20px;
-    width: 150px;
-    animation: floatLotso 10s ease-in-out infinite alternate;
-    z-index: 0;
-    filter: drop-shadow(0 5px 10px rgba(0,0,0,0.15));
-}
-
-.character-lotso img {
-    width: 100%;
-}
-
-@keyframes floatLotso {
-    0% { transform: translateY(0) rotate(0deg); opacity: 0.9; }
-    50% { transform: translateY(-20px) rotate(5deg); opacity: 1; }
-    100% { transform: translateY(0) rotate(-5deg); opacity: 0.9; }
-}
-
 /* --- Kontainer Utama (Aplikasi & Auth) --- */
 .container, .auth-container {
     background-color: #ffffff;
@@ -277,4 +255,5 @@ h2 {
     text-decoration: none;
     font-weight: 600;
 }
+
 
