@@ -17,7 +17,6 @@ body {
     min-height: 100vh;
     padding: 20px;
     position: relative;
-    overflow: hidden;
 }
 
 /* --- Karakter Animasi --- */
@@ -278,3 +277,4 @@ h2 {
     text-decoration: none;
     font-weight: 600;
 }
+
